@@ -3,14 +3,19 @@
 Plugin Name: Duplicate Post
 Plugin URI: https://www.littlebizzy.com/plugins/duplicate-post
 Description: Easily duplicate (clone) any blog post, custom post, or page in WordPress which are then saved in Draft mode, saving you tons of time and headache.
-Version: 1.0.1
+Version: 1.0.2
 Author: LittleBizzy
 Author URI: https://www.littlebizzy.com
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: duplicate-post-littlebizzy
-License: GPL3
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Domain Path: /lang
+Prefix: DPLCTP
 */
+
+// Admin Notices module
+require_once dirname(__FILE__).'/admin-notices.php';
+DPLCTP_Admin_Notices::instance(__FILE__);
 
 
 /**
