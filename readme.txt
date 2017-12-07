@@ -1,10 +1,11 @@
 === Duplicate Post ===
 
-Contributors: LittleBizzy
+Contributors: littlebizzy
 Tags: duplicate post, duplicate, clone, copy, post, page, custom post
 Requires at least: 4.4
 Tested up to: 4.8
-Stable tag: 1.0.0
+Requires PHP: 7.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,6 +23,9 @@ Zero settings page to worry about, simply adds a "Duplicate" link to the post li
 2. Activate the plugin in WP Admin
 
 == Changelog ==
+
+= 1.0.1 =
+* fixed title
 
 = 1.0.0 =
 * initial release
