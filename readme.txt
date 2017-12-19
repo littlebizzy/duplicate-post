@@ -1,6 +1,7 @@
 === Duplicate Post ===
 
 Contributors: littlebizzy
+Donate link: https://www.patreon.com/littlebizzy
 Tags: duplicate post, duplicate, clone, copy, post, page, custom post
 Requires at least: 4.4
 Tested up to: 4.9
