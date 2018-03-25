@@ -3,7 +3,7 @@
 Plugin Name: Duplicate Post
 Plugin URI: https://www.littlebizzy.com/plugins/duplicate-post
 Description: Easily duplicate (clone) any blog post, custom post, or page in WordPress which are then saved in Draft mode, saving you tons of time and headache.
-Version: 1.0.2
+Version: 1.0.3
 Author: LittleBizzy
 Author URI: https://www.littlebizzy.com
 License: GPLv3
@@ -17,6 +17,14 @@ Prefix: DPLCTP
 require_once dirname(__FILE__).'/admin-notices.php';
 DPLCTP_Admin_Notices::instance(__FILE__);
 
+/**
+ * Admin Notices Multisite check
+ * Uncomment //return to disable this plugin on Multisite installs
+ */
+require_once dirname(__FILE__).'/admin-notices-ms.php';
+if (false !== \LittleBizzy\DuplicatePost\Admin_Notices_MS::instance(__FILE__)) {
+	//return;
+}
 
 /**
  * Define main plugin class
