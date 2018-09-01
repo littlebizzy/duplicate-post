@@ -7,7 +7,7 @@ Requires at least: 4.4
 Tested up to: 4.9
 Requires PHP: 7.0
 Multisite support: No
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Prefix: DPLCTP
@@ -153,18 +153,22 @@ We released this plugin in response to our managed hosting clients asking for be
 
 == Changelog ==
 
+= 1.0.4 =
+* updated plugin meta
+
 = 1.0.3 =
 * added warning to Multisite installations
 * updated recommended plugins
 
 = 1.0.2 =
 * tested with WP 4.9
-* added recommended plugin notices
-* added rating request
-* added support for `define('DISABLE_NAG_NOTICES', true);`
+* added support for `DISABLE_NAG_NOTICES`
+* added recommended plugins notice
+* added rating request notice
 
 = 1.0.1 =
 * fixed plugin title
 
 = 1.0.0 =
 * initial release
+* tested with PHP 7.0
