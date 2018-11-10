@@ -4,19 +4,19 @@ Contributors: littlebizzy
 Donate link: https://www.patreon.com/littlebizzy
 Tags: duplicate, clone, copy, post, page
 Requires at least: 4.4
-Tested up to: 4.9
+Tested up to: 5.0
 Requires PHP: 7.0
 Multisite support: No
-Stable tag: 1.0.4
+Stable tag: 1.1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Prefix: DPLCTP
 
-Easily duplicate (clone) any blog post, custom post, or page in WordPress which are then saved in Draft mode, saving you tons of time and headache.
+Easily duplicate (clone) any post, custom post, or page which are then saved in Draft mode, saving you tons of time and headache (no settings page).
 
 == Description ==
 
-Easily duplicate (clone) any blog post, custom post, or page in WordPress which are then saved in Draft mode, saving you tons of time and headache.
+Easily duplicate (clone) any post, custom post, or page which are then saved in Draft mode, saving you tons of time and headache (no settings page).
 
 * [**Join our FREE Facebook group for support!**](https://www.facebook.com/groups/littlebizzy/)
 * [Plugin Homepage](https://www.littlebizzy.com/plugins/duplicate-post)
