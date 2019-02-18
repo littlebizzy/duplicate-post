@@ -1,0 +1,16 @@
+{
+    "name": "littlebizzy/duplicate-post",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "homepage": "https://www.littlebizzy.com/plugins/duplicate-post",
+    "description": "Easily duplicate (clone) any post, custom post, or page which are then saved in Draft mode, saving you tons of time and headache (no settings page).",
+    "keywords": ["wordpress","plugin","duplicate","clone","copy","post","page","custom post","menu"],
+    "support": {
+        "issues": "https://github.com/littlebizzy/duplicate-post/issues",
+        "forum": "https://www.littlebizzy.com/members"
+    }
+    "require": {
+        "php": "^7.2",
+        "composer/installers": "~1.0"
+    }
+}
